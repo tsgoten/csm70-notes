@@ -49,6 +49,20 @@ headpunct=:]
 We are going online now. We will have section in this format moving on Zoom.
 The Github for this section and all the notes will be on https://github.com/tsgoten/csm70-notes.
 
+\section{Message Corruption}
+So lets say we are sending message of length $ m $. So, we will sending soemhting eventually of length $ n $. Once we send $n $ we say that 20\% will be corrupted. How long should we make $ n $.  
+So the question is rephrased to being how long is $ n $.
+
+\begin{align*} 
+	n - pn = m \\
+	n = \frac{m}{1 -p}
+\end{align*}
+For Berlekamp welch
+\begin{align*} 
+	n - p(2n) = m \\
+	n = \frac{m}{1 - 2p}
+\end{align*}
+
 \section{Berlekamp-Welch}
 
 \end{document}
