@@ -1,0 +1,54 @@
+\documentclass[10pt, twocolumn]{article}
+\author{Tarang Srivastava}
+\usepackage{amsmath, amssymb, amsthm, commath, chngcntr, enumitem, multirow, thmtools, xcolor}
+\usepackage{graphicx}
+\usepackage[margin=.25in]{geometry}
+\setlength{\columnsep}{.5in}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\question}[1]{\textcolor{blue}{#1} \\}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\LinearMap}[2]{\mathcal{L}(#1, #2)}
+\newcommand{\poly}[2]{\mathcal{P}_{#1}\left(#2\right)}
+\newcommand{\vspan}[1]{\text{span}\left(#1\right)}
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\todo}[1]{\textcolor{red}{TODO: #1} \\}
+\newcommand{\nul}{\text{null }}
+\newcommand{\nullity}{\text{nullity }}
+\newcommand{\range}{\text{range }}
+\newcommand{\rank}{\text{rank }}
+\newcommand{\annhilator}[1]{#1^{0}}
+\newcommand{\makechaptertitle}[1]{
+\begin{center}
+	\begin{large}
+		#1
+	\end{large}
+	\begin{small}
+		\\Tarang Srivastava
+	\end{small}
+\end{center}
+}
+\declaretheoremstyle[
+spaceabove=\topsep, spacebelow=\topsep,
+headfont=\normalfont\bfseries,
+notefont=\bfseries, notebraces={Problem }{},
+bodyfont=\normalfont,
+postheadspace=0.5em,
+name={\ignorespaces},
+numbered=no,
+headpunct=:]
+{mystyle}
+\declaretheorem[style=mystyle]{q}
+
+\begin{document}
+
+\makechaptertitle{CSM Section 1}
+
+\section{Logistics}
+We are going online now. We will have section in this format moving on Zoom.
+The Github for this section and all the notes will be on https://github.com/tsgoten/csm70-notes.
+
+\section{Berlekamp-Welch}
+
+\end{document}
